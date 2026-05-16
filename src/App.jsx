@@ -16,6 +16,7 @@ import "swiper/css/scrollbar";
 import TopPosition from "./components/topPosition";
 import TopBottom from "./components/topBottom";
 import logo from "./assets/Group 7169.png";
+import MiddleTop from "./components/middleTop";
 
 const App = () => {
   const [openDrawer, setOpenDrawer] = useState(false);
@@ -34,6 +35,7 @@ const App = () => {
         </div>
         <TopPosition />
         <TopBottom />
+        <MiddleTop/>
 
         {/* <h1>GOSU</h1>
         <div className="lg:flex gap-5 justify-center items-center hidden">
