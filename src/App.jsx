@@ -19,8 +19,8 @@ const App = () => {
   const swiper = useSwiper();
   return (
     <>
-      <div className="flex justify-between items-center p-5">
-        <h1>GOSU</h1>
+      <div className=" relative">
+        {/* <h1>GOSU</h1>
         <div className="lg:flex gap-5 justify-center items-center hidden">
           <p>О нас</p>
           <p>Твои любимые места</p>
@@ -79,7 +79,7 @@ const App = () => {
           <SwiperSlide>
             <div className="w-full h-50 bg-green-600"></div>
           </SwiperSlide>
-        </Swiper>
+        </Swiper> */}
       </div>
     </>
   );
