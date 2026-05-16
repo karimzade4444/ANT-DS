@@ -1,4 +1,3 @@
-import location from '../../assets/Screenshot2_13 1 2.png'
 
 const ServiceInfoLocation = () => {
   return (

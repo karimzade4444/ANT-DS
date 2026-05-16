@@ -25,6 +25,7 @@ import Discount from "./components/discount";
 import Action from "./components/action";
 import ContactUs from "./components/contactUs";
 import Services from "./components/services";
+import Footertop from "./components/Footertop";
 
 const App = () => {
   const [openDrawer, setOpenDrawer] = useState(false);
@@ -52,6 +53,7 @@ const App = () => {
         <Action/>
         <ContactUs/>
         <Services/>
+        <Footertop/>
         {/* <h1>GOSU</h1>
         <div className="lg:flex gap-5 justify-center items-center hidden">
           <p>О нас</p>
