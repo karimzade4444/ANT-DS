@@ -20,6 +20,8 @@ import MiddleTop from "./components/middleTop";
 import Middle from "./components/middle";
 import MiddleBottom from "./components/middleBottom";
 import Bar from "./components/bar";
+import BarInfo from "./components/barInfo";
+
 const App = () => {
   const [openDrawer, setOpenDrawer] = useState(false);
   const swiper = useSwiper();
@@ -41,6 +43,7 @@ const App = () => {
         <Middle/>
         <MiddleBottom/>
         <Bar/>
+        <BarInfo/>
         {/* <h1>GOSU</h1>
         <div className="lg:flex gap-5 justify-center items-center hidden">
           <p>О нас</p>
