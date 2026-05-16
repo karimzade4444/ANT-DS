@@ -14,7 +14,8 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import TopPosition from "./components/topPosition";
-
+import TopBottom from "./components/topBottom";
+import logo from "./assets/Group 7169.png";
 
 const App = () => {
   const [openDrawer, setOpenDrawer] = useState(false);
@@ -22,8 +23,17 @@ const App = () => {
   return (
     <>
       <div className=" relative">
-
-       <TopPosition/>  
+        <div className=" fixed w-full left-0 top-0 z-10  bg-black/50">
+          <div className="  flex justify-between items-center gap p-5">
+            <img src={logo} alt="" className="w-30" />
+            <div className="flex justify-center items-center gap-3">
+              <Button icon={<MenuOutlined />} />
+              <p className="text-white! text-2xl">Menu</p>
+            </div>
+          </div>
+        </div>
+        <TopPosition />
+        <TopBottom />
 
         {/* <h1>GOSU</h1>
         <div className="lg:flex gap-5 justify-center items-center hidden">

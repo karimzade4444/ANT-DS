@@ -4,8 +4,8 @@ import { Button } from "antd";
 
 const TopBody = () => {
   return (
-    <div className="p-5 mt-30">
-      <img src={gamer} alt="" className="w-full" />
+    <div className="p-5">
+      <img src={gamer} alt="" className="w-full mt-50" />
       <p className="text-green-600 font-bold text-3xl pt-4">
         Больше, чем просто компьютерный клуб
       </p>
