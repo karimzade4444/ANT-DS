@@ -2,6 +2,7 @@ import logo from '../assets/Group 7169.png'
 import bgTop from '../assets/1920 1.png'
 import { Button } from "antd";
 import { MenuOutlined } from '@ant-design/icons';
+import TopBody from './miniComponents/topBody';
 
 
 const TopPosition = () => {
@@ -19,6 +20,7 @@ const TopPosition = () => {
           </div>
         </div>
       </div>
+      <TopBody/>
     </div>
   );
 }
