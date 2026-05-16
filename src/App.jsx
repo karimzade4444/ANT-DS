@@ -26,6 +26,7 @@ import Action from "./components/action";
 import ContactUs from "./components/contactUs";
 import Services from "./components/services";
 import Footertop from "./components/Footertop";
+import logotypes from './/assets/Group 7169.png'
 
 const App = () => {
   const [openDrawer, setOpenDrawer] = useState(false);
@@ -37,23 +38,48 @@ const App = () => {
           <div className="  flex justify-between items-center gap p-5">
             <img src={logo} alt="" className="w-30" />
             <div className="flex justify-center items-center gap-3">
-              <Button icon={<MenuOutlined />} />
+              <Button
+                icon={<MenuOutlined />}
+                onClick={() => {
+                  setOpenDrawer(true);
+                }}
+              />
               <p className="text-white! text-2xl">Menu</p>
             </div>
           </div>
         </div>
         <TopPosition />
         <TopBottom />
-        <MiddleTop/>
-        <Middle/>
-        <MiddleBottom/>
-        <Bar/>
-        <BarInfo/>
-        <Discount/>
-        <Action/>
-        <ContactUs/>
-        <Services/>
-        <Footertop/>
+        <MiddleTop />
+        <Middle />
+        <MiddleBottom />
+        <Bar />
+        <BarInfo />
+        <Discount />
+        <Action />
+        <ContactUs />
+        <Services />
+        <Footertop />
+
+        <Drawer
+          open={openDrawer}
+          className=" text-white! bg-gray-700!"
+          onClose={() => {
+            setOpenDrawer(false);
+          }}
+        >
+          <div className="h-screen  pt-20">
+          <div className=' flex justify-center items-center flex-col leading-20 text-white text-3xl'>
+              <img src={logotypes} alt=""  className='w-50'/>
+              <p className='pt-10'>About us</p>
+              <p>Your favorite places</p>
+              <p>Bar & Hookah</p>
+              <p>Services</p>
+          </div>
+          <p className='text-white/40 text-center pt-30 text-2xl'>@2022-2026 Gosu Cybersoft - Больше, чем просто компьютерный клуб</p>
+              </div>
+        </Drawer>
+
         {/* <h1>GOSU</h1>
         <div className="lg:flex gap-5 justify-center items-center hidden">
           <p>О нас</p>
