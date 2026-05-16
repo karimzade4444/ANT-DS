@@ -23,7 +23,7 @@ import Bar from "./components/bar";
 import BarInfo from "./components/barInfo";
 import Discount from "./components/discount";
 import Action from "./components/action";
-
+import ContactUs from "./components/contactUs";
 
 const App = () => {
   const [openDrawer, setOpenDrawer] = useState(false);
@@ -49,6 +49,7 @@ const App = () => {
         <BarInfo/>
         <Discount/>
         <Action/>
+        <ContactUs/>
         {/* <h1>GOSU</h1>
         <div className="lg:flex gap-5 justify-center items-center hidden">
           <p>О нас</p>
