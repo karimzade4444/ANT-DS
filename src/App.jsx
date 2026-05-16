@@ -18,6 +18,7 @@ import TopBottom from "./components/topBottom";
 import logo from "./assets/Group 7169.png";
 import MiddleTop from "./components/middleTop";
 import Middle from "./components/middle";
+import MiddleBottom from "./components/middleBottom";
 
 const App = () => {
   const [openDrawer, setOpenDrawer] = useState(false);
@@ -38,6 +39,7 @@ const App = () => {
         <TopBottom />
         <MiddleTop/>
         <Middle/>
+        <MiddleBottom/>
         {/* <h1>GOSU</h1>
         <div className="lg:flex gap-5 justify-center items-center hidden">
           <p>О нас</p>
