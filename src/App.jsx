@@ -22,6 +22,8 @@ import MiddleBottom from "./components/middleBottom";
 import Bar from "./components/bar";
 import BarInfo from "./components/barInfo";
 import Discount from "./components/discount";
+import Action from "./components/action";
+
 
 const App = () => {
   const [openDrawer, setOpenDrawer] = useState(false);
@@ -46,6 +48,7 @@ const App = () => {
         <Bar/>
         <BarInfo/>
         <Discount/>
+        <Action/>
         {/* <h1>GOSU</h1>
         <div className="lg:flex gap-5 justify-center items-center hidden">
           <p>О нас</p>
