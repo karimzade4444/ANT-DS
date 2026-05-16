@@ -1,8 +1,12 @@
-
+import place from '../../assets/15 1.png'
 
 const MiddleBottomInto = () => {
   return (
-    <div>middleBottomInto</div>
+    <div className='p-5 pt-20'>
+        <p className='text-green-600 font-black text-center text-2xl'>YOUR FAVORITE PLACES</p>
+        <img src={place} alt="" className='w-full pt-20'/>
+        <p className='text-green-600 text-3xl pt-10'>PRIVATE PLAYSTATION 5 ROOM ДЛЯ ИЗЫСКАННЫХ ГЕЙМЕРОВ</p>
+    </div>
   )
 }
 
