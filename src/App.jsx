@@ -13,6 +13,8 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import TopPosition from "./components/topPosition";
+
 
 const App = () => {
   const [openDrawer, setOpenDrawer] = useState(false);
@@ -20,6 +22,9 @@ const App = () => {
   return (
     <>
       <div className=" relative">
+
+       <TopPosition/>  
+
         {/* <h1>GOSU</h1>
         <div className="lg:flex gap-5 justify-center items-center hidden">
           <p>О нас</p>
