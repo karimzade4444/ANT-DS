@@ -19,7 +19,7 @@ import logo from "./assets/Group 7169.png";
 import MiddleTop from "./components/middleTop";
 import Middle from "./components/middle";
 import MiddleBottom from "./components/middleBottom";
-
+import Bar from "./components/bar";
 const App = () => {
   const [openDrawer, setOpenDrawer] = useState(false);
   const swiper = useSwiper();
@@ -40,6 +40,7 @@ const App = () => {
         <MiddleTop/>
         <Middle/>
         <MiddleBottom/>
+        <Bar/>
         {/* <h1>GOSU</h1>
         <div className="lg:flex gap-5 justify-center items-center hidden">
           <p>О нас</p>
