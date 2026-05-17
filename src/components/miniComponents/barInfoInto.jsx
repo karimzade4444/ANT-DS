@@ -14,17 +14,17 @@ const BarInfoInto = () => {
         BAR & HOOKAH
       </p>
       <div className="grid grid-cols-1 gap-5 pt-20">
-        <img src={i1} alt="" className=" shadow-2xl" />
+        <img src={i1} alt="" className=" shadow-2xl w-full" />
         <div className=" grid grid-cols-2 gap-5">
-          <img src={i2} alt="" className=" shadow-2xl" />
-          <img src={i3} alt="" className=" shadow-2xl" />
+          <img src={i2} alt="" className=" shadow-2xl w-full" />
+          <img src={i3} alt="" className=" shadow-2xl w-full" />
         </div>
-        <img src={i4} alt="" className=" shadow-2xl" />
+        <img src={i4} alt="" className=" shadow-2xl w-full" />
         <div className="grid grid-cols-2 gap-5">
-          <img src={i5} alt="" className=" shadow-2xl" />
-          <img src={i6} alt="" className=" shadow-2xl" />
+          <img src={i5} alt="" className=" shadow-2xl w-full" />
+          <img src={i6} alt="" className=" shadow-2xl w-full" />
         </div>
-        <img src={i7} alt="" className=" shadow-2xl" />
+        <img src={i7} alt="" className=" shadow-2xl w-full" />
       </div>
       <div className=" relative w-40 h-40 rounded-[100px] bg-purple-600 mt-20 ml-5">
         <p className=" text-white font-black text-3xl w-60 absolute left-20 top-15">
