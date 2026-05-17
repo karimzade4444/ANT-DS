@@ -26,7 +26,7 @@ import Action from "./components/action";
 import ContactUs from "./components/contactUs";
 import Services from "./components/services";
 import Footertop from "./components/Footertop";
-import logotypes from './/assets/Group 7169.png'
+import logotypes from ".//assets/Group 7169.png";
 
 const App = () => {
   const [openDrawer, setOpenDrawer] = useState(false);
@@ -35,9 +35,9 @@ const App = () => {
     <>
       <div className=" relative">
         <div className=" fixed w-full left-0 top-0 z-10  bg-black/50">
-          <div className="  flex justify-between items-center gap p-5">
+          <div className="  flex justify-evenly items-center gap p-5 gap-30">
             <img src={logo} alt="" className="w-30" />
-            <div className="flex justify-center items-center gap-3">
+            <div className="flex justify-center items-center gap-3 lg:hidden">
               <Button
                 icon={<MenuOutlined />}
                 onClick={() => {
@@ -46,6 +46,14 @@ const App = () => {
               />
               <p className="text-white! text-2xl">Menu</p>
             </div>
+            <div className="hidden  text-white lg:flex justify-center items-center gap-10">
+              <p>О нас</p>
+              <p>Твои любимые места</p>
+              <p>Bar & Hookah</p>
+              <p>Акции</p>
+              <p>Наши цены</p>
+            </div>
+            <Button variant="filled" className=" rounded-3xl! bg-white/30! border-white/50! text-white! hidden! lg:block!">Связаться с нами</Button>
           </div>
         </div>
         <TopPosition />
@@ -69,15 +77,17 @@ const App = () => {
           }}
         >
           <div className="h-screen  pt-20">
-          <div className=' flex justify-center items-center flex-col leading-20 text-white text-3xl'>
-              <img src={logotypes} alt=""  className='w-50'/>
-              <p className='pt-10'>About us</p>
+            <div className=" flex justify-center items-center flex-col leading-20 text-white text-3xl">
+              <img src={logotypes} alt="" className="w-50" />
+              <p className="pt-10">About us</p>
               <p>Your favorite places</p>
               <p>Bar & Hookah</p>
               <p>Services</p>
+            </div>
+            <p className="text-white/40 text-center pt-30 text-2xl">
+              @2022-2026 Gosu Cybersoft - Больше, чем просто компьютерный клуб
+            </p>
           </div>
-          <p className='text-white/40 text-center pt-30 text-2xl'>@2022-2026 Gosu Cybersoft - Больше, чем просто компьютерный клуб</p>
-              </div>
         </Drawer>
 
         {/* <h1>GOSU</h1>
