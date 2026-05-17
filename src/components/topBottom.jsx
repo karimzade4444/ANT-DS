@@ -6,7 +6,7 @@ const TopBottom = () => {
       style={{ backgroundImage: `url(${bgTB})` }}
       className="h-screen bg-cover bg-center relative"
     >
-      <p className=" absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  text-4xl" >
+      <p className=" absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  text-4xl lg:text-7xl" >
         About us
       </p>
     </div>
