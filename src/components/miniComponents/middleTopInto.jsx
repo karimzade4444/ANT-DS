@@ -69,9 +69,7 @@ const MiddleTopInto = () => {
             <MTIBootcamp />
           </SwiperSlide>
         </Swiper>
-        <div className=" lg:absolute lg:z-10 lg:left-30">
-          <img src={keyboardImg} alt="" className="w-full pt-20 lg:hidden" />
-        </div>
+      
       </div>
     </div>
   );
