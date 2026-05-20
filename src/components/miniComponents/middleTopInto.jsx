@@ -17,8 +17,8 @@ import bg1 from '../../assets/Group 71.png'
 
 const MiddleTopInto = () => {
   return (
-    <div className="p-5 lg:p-0">
-      <p className="text-green-600 font-bold text-3xl text-center pt-10 lg:text-start lg:text-xl lg:pl-30">
+    <div className="p-5 lg:p-0 lg:relative">
+      <p className="text-green-600 font-bold text-3xl text-center pt-10 lg:text-start lg:text-xl lg:pl-30 lg:absolute lg:top-5 z-10 ">
         ABOUT US
       </p>
       <div className="lg:flex lg:flex-row-reverse lg:justify-center lg:items-center lg:relative">
@@ -28,23 +28,22 @@ const MiddleTopInto = () => {
           modules={[Pagination, Autoplay]}
           pagination={{ clickable: true }}
           autoplay={{ delay: 3000, disableOnInteraction: false }}
-          className="w-full lg:w-[600px]"
         >
           <SwiperSlide>
-            <div className="w-full flex justify-center">
-              <img src={keyboardImg} alt="" className="w-full max-w-[600px]" />
+            <div className="w-full h-screen relative">
+              <img src={keyboardImg} alt="" className="w-full h-screen" />
             </div>
           </SwiperSlide>
 
           <SwiperSlide>
             <div className="w-full flex justify-center">
-              <img src={keyboardImg} alt="" className="w-full max-w-[600px]" />
+              <img src={keyboardImg} alt="" className="w-full h-screen" />
             </div>
           </SwiperSlide>
 
           <SwiperSlide>
             <div className="w-full flex justify-center">
-              <img src={keyboardImg} alt="" className="w-full max-w-[600px]" />
+              <img src={keyboardImg} alt="" className="w-full h-screen" />
             </div>
           </SwiperSlide>
         </Swiper>

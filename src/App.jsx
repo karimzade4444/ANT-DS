@@ -34,7 +34,7 @@ const App = () => {
   return (
     <>
       <div className=" relative">
-        <div className=" fixed w-full left-0 top-0 z-10  bg-black/50">
+        <div className=" fixed w-full left-0 top-0 z-100  bg-black/50">
           <div className="  flex justify-evenly items-center gap p-5 gap-30">
             <img src={logo} alt="" className="w-30" />
             <div className="flex justify-center items-center gap-3 lg:hidden">
