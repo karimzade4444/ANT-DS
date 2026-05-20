@@ -4,6 +4,7 @@ const BarInfo = () => {
   return (
     <div style={{backgroundImage:`url(${bgbi})`}} className='h-[250vh] bg-black/94 bg-center bg-cover'>
 <BarInfoInto/>
+
     </div>
   )
 }

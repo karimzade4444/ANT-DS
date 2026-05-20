@@ -10,10 +10,10 @@ import { LinkOutlined } from "@ant-design/icons";
 const BarInfoInto = () => {
   return (
     <div className="p-5">
-      <p className="text-center font-black text-3xl text-green-600 pt-15">
+      <p className="text-center font-black text-3xl text-green-600 pt-15 lg:pt-0">
         BAR & HOOKAH
       </p>
-      <div className="grid grid-cols-1 gap-5 pt-20">
+      <div className="grid grid-cols-1 gap-5 pt-20 lg:pt-5 lg:grid-cols-2">
         <img src={i1} alt="" className=" shadow-2xl w-full" />
         <div className=" grid grid-cols-2 gap-5">
           <img src={i2} alt="" className=" shadow-2xl w-full" />
