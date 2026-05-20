@@ -8,7 +8,7 @@ const MiddleTop = () => {
         style={{ backgroundImage: `url(${bg})` }}
         className="h-screen bg-cover bg-center lg:hidden"
       >
-        <MiddleTopInto />
+        
       </div>
       <div
         className="hidden h-screen bg-cover bg-center lg:block bg-black/95"
