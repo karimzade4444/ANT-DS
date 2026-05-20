@@ -13,10 +13,8 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import bg1 from "../../assets/Group 71.png";
-import monitor from '../../assets/Acer gaming 27’ 240hz 1ms.png'
-import earphone from '../../assets/hyperx-cloud-stinger-1.png'
-import mouse from '../../assets/Мышь стандарт.png'
-import keyb from '../../assets/Dark Project KD87 A LTD.png'
+import MTII from "./MTII";
+
 
 const MiddleTopInto = () => {
   return (
@@ -55,31 +53,14 @@ const MiddleTopInto = () => {
           </SwiperSlide>
 
           <SwiperSlide>
-            <div className="w-full h-screen relative">
-              <img src={bgs} alt="" className="w-full h-screen object-cover " />
-
-              <div className=" absolute top-60 left-20">
-                <p className="text-white pt-5 text-xl lg:text-xl ">
-                  STANDART PX
-                </p>
-                <p className="text-green-600  text-3xl pt-5 lg:text-5xl lg:w-170 lg:leading-17">
-                  CPU INTEL CORE I5 4.6MHZ RAM 16GB 3200MHZ CL 15 RTX2070 8GB
-                  GDDR6
-                </p>
-              </div>
-              <div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-              </div>
-            </div>
+            <MTII />
           </SwiperSlide>
 
           <SwiperSlide>
-            <div className="w-full flex justify-center">
-              <img src={keyboardImg} alt="" className="w-full h-screen" />
-            </div>
+            <MTII />
+          </SwiperSlide>
+          <SwiperSlide>
+            <MTII />
           </SwiperSlide>
         </Swiper>
         <div className=" lg:absolute lg:z-10 lg:left-30">
