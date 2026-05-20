@@ -14,6 +14,7 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import bg1 from "../../assets/Group 71.png";
 import MTII from "./MTII";
+import MTIComfort from "./MTIComfort";
 
 
 const MiddleTopInto = () => {
@@ -57,7 +58,7 @@ const MiddleTopInto = () => {
           </SwiperSlide>
 
           <SwiperSlide>
-            <MTII />
+           <MTIComfort/>
           </SwiperSlide>
           <SwiperSlide>
             <MTII />
