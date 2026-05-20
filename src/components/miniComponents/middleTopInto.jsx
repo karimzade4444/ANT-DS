@@ -16,6 +16,7 @@ import bg1 from "../../assets/Group 71.png";
 import MTII from "./MTII";
 import MTIComfort from "./MTIComfort";
 import MTIVip from "./MTIVip";
+import MTIBootcamp from "./MTIBootcamp";
 
 
 const MiddleTopInto = () => {
@@ -65,7 +66,7 @@ const MiddleTopInto = () => {
             <MTIVip />
           </SwiperSlide>
           <SwiperSlide>
-            <MTIVip />
+            <MTIBootcamp />
           </SwiperSlide>
         </Swiper>
         <div className=" lg:absolute lg:z-10 lg:left-30">

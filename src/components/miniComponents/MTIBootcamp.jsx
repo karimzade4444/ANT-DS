@@ -63,7 +63,7 @@ const MTIBootcamp = () => {
             <p className=" bg-linear-to-r from-green-700  via-purple-600 to-red-700 bg-clip-text text-transparent font-black">
               КЛАВИАТУРА
             </p>
-            <p></p>
+            <p>Dark project kd 87 a gateron teel ltd</p>
           </div>
         </div>
       </div>
