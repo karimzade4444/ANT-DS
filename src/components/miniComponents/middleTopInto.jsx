@@ -15,6 +15,7 @@ import "swiper/css/scrollbar";
 import bg1 from "../../assets/Group 71.png";
 import MTII from "./MTII";
 import MTIComfort from "./MTIComfort";
+import MTIVip from "./MTIVip";
 
 
 const MiddleTopInto = () => {
@@ -58,10 +59,13 @@ const MiddleTopInto = () => {
           </SwiperSlide>
 
           <SwiperSlide>
-           <MTIComfort/>
+            <MTIComfort />
           </SwiperSlide>
           <SwiperSlide>
-            <MTII />
+            <MTIVip />
+          </SwiperSlide>
+          <SwiperSlide>
+            <MTIVip />
           </SwiperSlide>
         </Swiper>
         <div className=" lg:absolute lg:z-10 lg:left-30">
