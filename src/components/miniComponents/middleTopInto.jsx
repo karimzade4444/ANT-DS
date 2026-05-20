@@ -13,6 +13,10 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import bg1 from "../../assets/Group 71.png";
+import monitor from '../../assets/Acer gaming 27’ 240hz 1ms.png'
+import earphone from '../../assets/hyperx-cloud-stinger-1.png'
+import mouse from '../../assets/Мышь стандарт.png'
+import keyb from '../../assets/Dark Project KD87 A LTD.png'
 
 const MiddleTopInto = () => {
   return (
