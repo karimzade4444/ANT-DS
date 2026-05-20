@@ -1,5 +1,5 @@
-
-import keyboardImg from '../../assets/Девайсы premium брендов (посмотри какая из двух лучше) 1.png'
+import bgs from "../../assets/Group 7159.png";
+import keyboardImg from "../../assets/Девайсы premium брендов (посмотри какая из двух лучше) 1.png";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import {
   A11y,
@@ -12,8 +12,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import bg1 from '../../assets/Group 71.png'
-
+import bg1 from "../../assets/Group 71.png";
 
 const MiddleTopInto = () => {
   return (
@@ -31,7 +30,7 @@ const MiddleTopInto = () => {
         >
           <SwiperSlide>
             <div className="w-full h-screen relative">
-              <img src={keyboardImg} alt="" className="w-full h-screen" />
+              <img src={bgs} alt="" className="w-full h-screen object-cover " />
             </div>
           </SwiperSlide>
 
@@ -62,6 +61,6 @@ const MiddleTopInto = () => {
       </div>
     </div>
   );
-}
+};
 
-export default MiddleTopInto
+export default MiddleTopInto;
