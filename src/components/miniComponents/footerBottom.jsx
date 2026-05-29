@@ -6,7 +6,7 @@ const FooterBottom = () => {
     <div className="h-screen bg-black/95 pt-20">
       <div className=" flex justify-center items-center flex-col leading-20 text-white text-3xl">
         <img src={logotype} alt="" className="w-50" />
-        <div className=' lg: flex lg:justify-center lg:items-center lg:gap-10 lg:pt-20'>
+        <div className=' lg:flex lg:justify-center lg:items-center lg:gap-10 lg:pt-20 text-center'>
           <p className="pt-10 lg:pt-0">About us</p>
           <p>Your favorite places</p>
           <p>Bar & Hookah</p>
