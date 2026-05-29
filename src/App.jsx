@@ -29,6 +29,37 @@ import Footertop from "./components/Footertop";
 import logotypes from ".//assets/Group 7169.png";
 import MiddleBottomGames from "./components/middleBottomGames";
 
+  const games = [
+    {
+      id: 1,
+      image:
+        "https://cdn.marvel.com/content/2x/marvelsspiderman2_lob_crd_02.jpg",
+      title: "Spider-Man 2",
+      platform: "PS5",
+      genre: "Action",
+    },
+
+    {
+      id: 2,
+      image:
+        "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg",
+      title: "Cyberpunk 2077",
+      platform: "PC",
+      genre: "RPG",
+    },
+
+    {
+      id: 3,
+      image:
+        "https://upload.wikimedia.org/wikipedia/ru/d/db/Counter-strike_2.jpg",
+      title: "Counter Strike 2",
+      platform: "PC",
+      genre: "Shooter",
+    },
+  ];
+
+
+
 const App = () => {
   const [openDrawer, setOpenDrawer] = useState(false);
   const swiper = useSwiper();

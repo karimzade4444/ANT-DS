@@ -1,8 +1,10 @@
 
 
+
+
 const Games = () => {
   return (
-    <div>games</div>
+    <div></div>
   )
 }
 
