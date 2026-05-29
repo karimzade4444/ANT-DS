@@ -27,6 +27,7 @@ import ContactUs from "./components/contactUs";
 import Services from "./components/services";
 import Footertop from "./components/Footertop";
 import logotypes from ".//assets/Group 7169.png";
+import MiddleBottomGames from "./components/middleBottomGames";
 
 const App = () => {
   const [openDrawer, setOpenDrawer] = useState(false);
@@ -61,6 +62,7 @@ const App = () => {
         <MiddleTop />
         <Middle />
         <MiddleBottom />
+        <MiddleBottomGames/>
         <Bar />
         <BarInfo />
         <Discount />
