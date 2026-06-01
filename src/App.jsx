@@ -93,7 +93,7 @@ const App = () => {
         <MiddleTop />
         <Middle />
         <MiddleBottom />
-        <MiddleBottomGames/>
+        <MiddleBottomGames />
         <Bar />
         <BarInfo />
         <Discount />
