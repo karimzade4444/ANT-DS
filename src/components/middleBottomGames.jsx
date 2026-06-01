@@ -11,7 +11,7 @@ const MiddleBottomGames = ({
       <p className=" text-green-600 text-4xl font-extrabold text-center p-5">
         GAMES
       </p>
-      <Games />
+      <Games  games={games} deleteGames={deleteGames} createGames={createGames} updateGames={updateGames}/>
     </div>
   );
 };

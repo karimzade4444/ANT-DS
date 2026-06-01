@@ -2,10 +2,8 @@
 
 
 
-const Games = () => {
-  return (
-    <div></div>
-  )
-}
+const Games = ({ games, deleteGames, createGames, updateGames }) => {
+  return <div></div>;
+};
 
 export default Games
