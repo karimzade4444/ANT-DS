@@ -25,13 +25,23 @@ const Games = ({ games, deleteGames, createGames, updateGames }) => {
               <span className="text-gray-400 text-sm">{item.genre}</span>
             </div>
 
-            {/* 2. DELETE: Кнопка удаления */}
-            {/* Обязательно передаем через стрелочную функцию () =>, чтобы она не сработала сама при загрузке! */}
             <button
               onClick={() => deleteGames(item.id)}
-              className="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-lg transition-colors"
+              className="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-lg transition-colors cursor-pointer"
             >
               Удалить
+            </button>
+            <button
+             
+              className="w-full mt-3 bg-white/60 hover:bg-white/30 text-black font-bold py-2 px-4 rounded-lg transition-colors cursor-pointer"
+            >
+              Посмотреть
+            </button>
+            <button
+              
+              className="w-full mt-3 bg-black hover:bg-black/50 text-white font-bold py-2 px-4 rounded-lg transition-colors cursor-pointer"
+            >
+              Редактировать
             </button>
           </div>
         );
