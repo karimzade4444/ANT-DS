@@ -29,7 +29,7 @@ import Footertop from "./components/Footertop";
 import logotypes from ".//assets/Group 7169.png";
 import MiddleBottomGames from "./components/middleBottomGames";
 
-  const games = [
+  const [games, SetGames] = useState ([
     {
       id: 1,
       image:
@@ -56,8 +56,30 @@ import MiddleBottomGames from "./components/middleBottomGames";
       platform: "PC",
       genre: "Shooter",
     },
-  ];
+  ]);
+  const createGames = (newImage, newTitle, newPlatform, newGenre) => {
+    const newItem = { id: Date.now(), image: newImage, title: newTitle, platform: newPlatform, genre: newGenre };
+    SetGames([...games, newItem]);
+  };
 
+  const deleteGames = (idToDelete) => {
+  
+    const updatedGames = games.filter((item) => item.id !== idToDelete);
+
+    SetGames(updatedGames);
+  };
+  const updateGames = (idToUpdate, updatedImage, updatedTitle, updatedPlatform, updatedGenre) => {
+    const updateddGames = games.map((item) => {
+      if (item.id === idToUpdate) {
+      
+        return { ...item, image: updatedImage, title: updatedTitle, platform: updatedPlatform, genre: updatedGenre };
+      }
+    
+      return item;
+    });
+
+    SetGames(updateddGames);
+  };
 
 
 const App = () => {
